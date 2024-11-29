@@ -1,0 +1,42 @@
+{
+  "name": "arpayanwebsite",
+  "bucket": "",
+  "preset": "javascript",
+  "env": "production",
+  "prefix": "20241129093908",
+  "not-first-run": true,
+  "function": {
+    "id": 32966,
+    "name": "__DEFAULT__",
+    "file": ".edge/worker.js",
+    "args": "azion/args.json",
+    "instance-id": 31706,
+    "instance-name": "__DEFAULT__",
+    "cache-id": 190932
+  },
+  "application": {
+    "id": 1732870848,
+    "name": "__DEFAULT__"
+  },
+  "domain": {
+    "id": 1732876666,
+    "name": "arpayanwebsite",
+    "domain_name": "nvhi596uw8.map.azionedge.net",
+    "url": "https://nvhi596uw8.map.azionedge.net"
+  },
+  "rt-purge": {
+    "purge_on_publish": true
+  },
+  "origin": [],
+  "rules-engine": {
+    "created": false,
+    "rules": [
+      {
+        "id": 328081,
+        "name": "Execute Edge Function",
+        "phase": "request"
+      }
+    ]
+  },
+  "cache-settings": []
+}
